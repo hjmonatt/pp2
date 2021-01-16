@@ -1,6 +1,6 @@
 
 <?php
-//Heather Monatt
+//Heather Monatt, Alisa Llavore, Eleanor Carl
 //1/15/2021
 //http://hmonatt.greenriverdev.com/328/pp2/index.php
 //Pair Program 2
@@ -28,13 +28,16 @@ error_reporting(E_ALL);
     echo"<h2>PHP Array Practice</h2>";
 
     //Step 2
-    echo"<h2>Step 2:</h2>";
+    echo"<h2>Step 2 & 3:</h2>";
     $numbers = array(7, 9, 8, 9, 8, 8, 6);
 
     //Step 3
     include('functions.php');
-
     printArr($numbers);
+
+    //Step 4
+    echo"<h2>Step 4</h2>";
+    largest($numbers);
 
 
 
