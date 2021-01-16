@@ -43,6 +43,9 @@ error_reporting(E_ALL);
     echo"<h2>Step 5</h2>";
     removeDups($numbers);
 
+    //Step 6
+    echo"<h2>Step 6</h2>";
+    distribution($numbers);
 
 
 
