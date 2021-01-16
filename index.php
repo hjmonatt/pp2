@@ -39,6 +39,11 @@ error_reporting(E_ALL);
     echo"<h2>Step 4</h2>";
     largest($numbers);
 
+    //Step 5
+    echo"<h2>Step 5</h2>";
+    removeDups($numbers);
+
+
 
 
 
