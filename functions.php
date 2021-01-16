@@ -22,10 +22,5 @@ function distribution($numbers){
     asort($numbers);
     print_r(array_count_values($numbers));
 
-    //foreach($numbers as $number => $occurrence){
-
-    //}
-    //$results = print_r(array_count_values($numbers));
-    //echo "[" . implode(", ", $results) . "]";
 }
 
